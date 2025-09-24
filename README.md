@@ -23,3 +23,12 @@ Perform a network scan using Nmap to discover open ports on devices in your loca
 ## 🚀 Scan Command Used
 ```bash
 nmap -sS -Pn 192.168.56.0/24
+1️⃣ scan_results.txt
+Include your raw Nmap output. You can generate it using:
+nmap -sS -Pn 192.168.56.0/24 -oN scan_results.txt
+
+git add screenshots/
+git commit -m "Added screenshots"
+git push
+
+
